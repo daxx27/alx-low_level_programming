@@ -1,17 +1,12 @@
-#include <main.h>
+#include "main.h"
 
-/* this 
- * is 
- * comment*/
-void print_alphabet(void)
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	int ch;
-
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		_putchar(ch);
-	}
-
-	_putchar('\n');
-
+    print_alphabet();
+    return (0);
 }
