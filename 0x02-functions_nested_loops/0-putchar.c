@@ -1,12 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 
-/* this 
- * is 
- * a 
- * comment*/
-int main(void) 
+/**
+ * main - This program prints the phrase Hello, World
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-	printf("_putchar\n");
-	return 0;
+	char ch[] = "_putchar";
+	int i;
 
+	for (i = 0; ch[i] != '\0'; i++)
+	{
+		_putchar(ch[i]);
+	}
+
+	_putchar('\n');
+	return (0);
 }
