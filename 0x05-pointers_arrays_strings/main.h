@@ -1,3 +1,4 @@
+
 #ifndef _HOLBERTON_H_
 #define _HOLBERTON_H_
 
@@ -14,4 +15,4 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 
-#endif[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[Cmain_h_[A[Cmain_h_[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[A[A[A[A[A[A
+#endif
